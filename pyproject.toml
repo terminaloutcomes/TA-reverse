@@ -1,3 +1,24 @@
 
 [tool.ruff]
 line-length = 120
+[tool.poetry]
+name = "ta-reverse"
+version = "0.0.1"
+description = ""
+authors = ["James Hodgkinson <james@terminaloutcomes.com>"]
+readme = "README.md"
+packages = [{include = "ta_reverse"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+splunk-sdk = "^1.7.4"
+
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.6.0"
+ruff = "^0.0.292"
+black = "^23.9.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
