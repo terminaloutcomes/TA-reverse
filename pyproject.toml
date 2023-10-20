@@ -14,7 +14,7 @@ splunk-sdk = "^1.7.4"
 
 [tool.poetry.group.dev.dependencies]
 mypy = "^1.6.0"
-ruff = "^0.0.292"
+ruff = "^0.1.1"
 black = "^23.10.0"
 
 [build-system]
