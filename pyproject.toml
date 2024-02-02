@@ -15,7 +15,7 @@ splunk-sdk = "^1.7.4"
 [tool.poetry.group.dev.dependencies]
 mypy = "^1.8.0"
 ruff = "^0.2.0"
-black = "^24.1.0"
+black = "^24.1.1"
 
 [build-system]
 requires = ["poetry-core"]
