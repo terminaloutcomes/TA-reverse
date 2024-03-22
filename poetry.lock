@@ -194,12 +194,12 @@ files = [
 
 [[package]]
 name = "splunk-sdk"
-version = "1.7.4"
+version = "2.0.0"
 description = "The Splunk Software Development Kit for Python."
 optional = false
 python-versions = "*"
 files = [
-    {file = "splunk-sdk-1.7.4.tar.gz", hash = "sha256:8f3f149e3a0daf7526ed36882c109e4ec8080e417efe25d23f4578e86d38b9f2"},
+    {file = "splunk-sdk-2.0.0.tar.gz", hash = "sha256:d60dfbec3d2901e3c26a160f496325d473abcd71605c7a8154dfcd35929416a6"},
 ]
 
 [[package]]
@@ -227,4 +227,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.8"
-content-hash = "9509390a266f26fbb9cb445449202de55900fab7ab464b935ebd6a7f0c361538"
+content-hash = "8eed27beae2f4575c59cc61150a2f38aa648b3f62d2252ff1322f8c967ac2509"
