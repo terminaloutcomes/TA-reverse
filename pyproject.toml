@@ -10,7 +10,7 @@ packages = []
 
 [tool.poetry.dependencies]
 python = "^3.8"
-splunk-sdk = "^2.0.1"
+splunk-sdk = "^2.0.2"
 
 [tool.poetry.group.dev.dependencies]
 mypy = "^1.10.1"
